@@ -1,0 +1,86 @@
+    <div class="container">
+        <div class="col-lg-6 col-lg-offset-3 text-center card">
+            <div class="row title">
+                <h1>FoodChooser</h1>
+            </div>
+
+            <div class="row content">
+                <p id="foodDisplay"></p>
+                <br>
+                <button class="generate-button" onclick="foodChooser()"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    html {
+    background-color: #FAF8FA;
+}
+
+.card {
+    background-color: white;
+    margin-top: 200px;
+    height: 500px;
+    -webkit-box-shadow: 0px 0px 37px 11px rgba(219, 219, 219, 1);
+    -moz-box-shadow: 0px 0px 37px 11px rgba(219, 219, 219, 1);
+    box-shadow: 0px 0px 37px 11px rgba(219, 219, 219, 1);
+}
+
+.title {
+    padding: 100px;
+    background: #face7c;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #face7c 0%, #f0806e 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #face7c 0%, #f0806e 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #face7c 0%, #f0806e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#face7c', endColorstr='#f0806e', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.content {
+    padding: 65px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: 2d2d2d;
+}
+
+.generate-button {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50px;
+    background: #face7c;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #face7c 0%, #f0806e 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #face7c 0%, #f0806e 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #face7c 0%, #f0806e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#face7c', endColorstr='#f0806e', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: #face7c;
+    /* Old browsers */
+}
