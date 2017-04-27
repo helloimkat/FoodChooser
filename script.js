@@ -1,7 +1,7 @@
 var food = {
     "order": ["pizza", "burger", "chinese", "kebab", "gyros"],
     "go out to": ["Die Scherbe", "Burgerista", "EAT-Asia", "Eggenberger Brauhaus", "ROX", "Drei Goldene Kugeln"],
-    "cook": ["Curry", "Scrambled eggs", "spaghetti bolognese", "pancakes", "asian pan", "cream chicken bits", "grenadiermarsch", "reisfleisch", "cold tomato-sausage salad"]
+    "cook": ["Curry", "Scrambled eggs", "spaghetti bolognese", "pancakes", "asian pan", "cream chicken bits", "pizza twisters", "grenadiermarsch", "reisfleisch", "cold tomato-sausage salad"]
 }
 
 function foodChooser() {
